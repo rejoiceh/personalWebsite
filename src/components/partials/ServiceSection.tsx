@@ -14,7 +14,7 @@ const ServiceSection = () => {
         {services.map((service, index) => (
           <div
             key={index}
-            className='rounded-2xl py-8 px-4 text-center items-center shadow-md md:px-8 bg-white dark:bg-gray-700'
+            className='rounded-2xl py-8 px-4 text-center items-center mx-auto shadow-md md:px-8 bg-white dark:bg-gray-700'
           >
             <Image src={service.image} height={80} width={80} alt={service.name} />
             <h4 className="mt-4 text-xl font-semibold">{service.name}</h4>
