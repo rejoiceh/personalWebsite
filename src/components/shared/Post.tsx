@@ -29,11 +29,11 @@ const Post = ({ thumbnailUrl, title, publishedAt, href, description, demoUrl, co
         <time className="mt-2 text-xs inline-block rounded-full text-white bg-primary-500 bg-origin-content px-1">{publishedAt}</time>
         <p className="text-sm text-gray-500 dark:text-gray-200">{description}</p>
         <div>
-          {demoUrl == "" ? <p></p> : <Link href={demoUrl}>
+          {demoUrl == '' ? <p></p> : <Link href={demoUrl}>
             <a className="text-sm font-semibold text-gray-500 dark:text-gray-200 hover:text-primary-500 underline">Demo</a>
           </Link>}
           {'  '}
-          {codeUrl == "" ? <p></p> : <Link href={codeUrl}>
+          {codeUrl == '' ? <p></p> : <Link href={codeUrl}>
             <a className="text-sm font-semibold text-gray-500 dark:text-gray-200 hover:text-primary-500 underline">Code</a>
           </Link>}
         </div>
