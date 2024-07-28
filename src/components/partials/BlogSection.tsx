@@ -12,7 +12,7 @@ const BlogSection = () => {
           .map((post) => (
             <Post
               key={post.id}
-              href={post.demoUrl ? post.demoUrl : "#projects"}
+              href={post.demoUrl ? post.demoUrl : '#projects'}
               thumbnailUrl={post.thumbnailUrl}
               title={post.title}
               publishedAt={post.publishedAt}
