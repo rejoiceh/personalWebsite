@@ -12,7 +12,6 @@
     "quotes": [
       "error",
       "single",
-      "double",
       {
         "allowTemplateLiterals": true
       }

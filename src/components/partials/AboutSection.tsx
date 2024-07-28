@@ -1,8 +1,4 @@
-import Button from '@/components/form/Button';
 import SectionTitle from '@/components/shared/SectionTitle';
-import { FiCoffee } from 'react-icons/fi';
-import { HiOutlineChartBar, HiOutlineFire, HiOutlineUsers } from 'react-icons/hi';
-import ProgressBar from '@/components/shared/ProgressBar';
 import Link from 'next/link';
 
 const AboutSection = () => {
