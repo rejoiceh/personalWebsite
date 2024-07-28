@@ -2,7 +2,7 @@ import { Education } from '@/types';
 
 export const educations: Education[] = [
   {
-    degree: "Master's - Information Science (focus in ML)",
+    degree: `Master's - Information Science (focus in ML)`,
     school: 'Cornell University',
     startDate: 'Jan 2023',
     endDate: 'Dec 2023',

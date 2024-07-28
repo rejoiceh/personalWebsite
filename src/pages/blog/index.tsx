@@ -20,7 +20,7 @@ const Blog = () => {
           {posts.map((post) => (
             <Post
               key={post.id}
-              href={post.demoUrl ? post.demoUrl : ""}
+              href={post.demoUrl ? post.demoUrl : ''}
               thumbnailUrl={post.thumbnailUrl}
               title={post.title}
               publishedAt={post.publishedAt}
